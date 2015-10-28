@@ -1,5 +1,7 @@
 # Sass development boilerplate
-Sass folder organization is forked from [Hugo Giraudel sass boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) and modified to my liking (a lot of work still needs to be done).
+My boilerplate folder for web development. It have all the basics I use in most of my projects. I expect it to grow and change over time (especialy package.json and Scss folder).
+
+Scss folder organization is forked from [Hugo Giraudel's sass boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) and modified to my liking (a lot of work still needs to be done).
 
 ## To-Do
 - Finish own CSS reset (most CSS resets are too big for me, especialy for smaller projects, as such I want to create small reset modules which I can add as necessary) Planned modules:
