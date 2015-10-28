@@ -1,0 +1,27 @@
+{
+    "devDependencies": {
+        "parallelshell": "latest",
+        "rimraf"       : "latest",
+        "mkdirp"       : "latest",
+        "sass"         : "latest",
+        "watch"        : "latest",
+        "autoprefixer" : "latest",
+        "cssmin"       : "latest",
+        "uglifyjs"     : "latest",
+        "browser-sync" : "latest"
+    },
+    "scripts": {
+        "clear"        : "rimraf dist",
+        "prebuild"     : "npm run clear",
+        "build"        : "npm run build:css && npm run minify:css",
+        "prebuild:css" : "mkdirp css",
+        "build:css"    : "sass --style expanded scss/main.scss css/main.css",
+        "postbuild:css": "echo 'npm run autopref'",
+        "watch:css"    : "watch \"npm run build:css\" scss/",
+        "autopref"     : "autoprefixer -b \"> 1%\" css/main.css",
+        "watch"        : "parallelshell \"npm run watch:css\"",
+        "minify"       : "npm run minify:css && npm run minify:js",
+        "minify:css"   : "mkdirp dist/css && cssmin css/main.css > dist/css/main.css",
+        "minify:js"    : "mkdirp dist/js && uglifyjs js/app.js > dist/js/app.min.js"
+    }
+}

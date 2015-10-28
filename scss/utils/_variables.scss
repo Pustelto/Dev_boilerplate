@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+/// Regular font family
+/// @type List
+$text-font-stack: ('Ubuntu', 'Arial', sans-serif) !default;
+
+/// Layout specific variables
+/// @type Length
+$max-page-width: 1140px;
+
+/// Colors
+/// @type Color
+$text-color       : #FFFFFF !default;
+$input-text-color : #1f2547 !default;
+$brand-navy       : #003781 !default;
+$brand-blue       : #0077c8 !default;
+$color-error      : #d55550 !default;
+
+/// Font sizes
+$text-small: (14 / 16) * 1em;
+$text-base: (16 / 16) * 1em;
+$text-lead: (18 / 16) * 1em;
+$text-notify: (24 / 16) * 1em;
+
+/// Z-index map
+/// @prop {String} keys - Keys are identifiers mapped to a given z-index
+/// @prop {Number} values - Values are actual values of z-index
+/// @see {function} z
+$z-indexes: (
+    'below': -1,
+    'zero': 0,
+    'base': 1,
+    'above': 2,
+    'front': 5,
+    'tooltip': 20,
+    'dropdown': 200,
+    'overlay': 400,
+    'modal': 500,
+) !default;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+/// @see {mixin} respond-to
+$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+) !default;
