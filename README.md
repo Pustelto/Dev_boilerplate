@@ -1,11 +1,12 @@
 # Sass development boilerplate
-Basics are forked from Hugo's sass guidelines (doplnit odkaz)
+My boilerplate folder for web development. It have all the basics I use in most of my projects. I expect it to grow and change over time (especialy package.json and Scss folder).
+
+Scss folder organization is forked from [Hugo Giraudel's sass boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) and modified to my liking (a lot of work still needs to be done).
 
 ## To-Do
-- vlastní css reset rozkouskouskovat do balíčků:
-    - ie8/9 hakcs (display block atd.)
-    - core (vesměs nastavení pro html, body a nejběžnější prvky)
-    - forms (formulářové prvky)
-    - other elements (pre, blockquote apod.)
-- doplnit funkce a mixiny z VPP projektu
-- umístit vše na Git
+- Finish own CSS reset (most CSS resets are too big for me, especialy for smaller projects, as such I want to create small reset modules which I can add as necessary) Planned modules:
+    - ie8/9 hakcs
+    - core (most common elements - ul, p, a etc.)
+    - forms (form elements)
+    - other not so often elements (pre, blockquote apod.)
+- add functions and mixins from my other projects (VPP project)
