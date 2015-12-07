@@ -1,14 +1,40 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass mixins.
-// -----------------------------------------------------------------------------
+//// This file contains all application-wide Sass mixins.
+
+/// Opacity mixin for IE8 support
+/// @link https://css-tricks.com/snippets/css/cross-browser-opacity/
+@mixin opacity($level: 1) {
+  opacity: $level;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$level * 100})";
+}
+
+/// Vertical centering with ghost element
+/// @link https://css-tricks.com/centering-in-the-unknown/
+@mixin ghost-elem () {
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+/// Clearfix mixin to eliminate non-semantic class clearfix if possible, clearfix class is still available and valid
+@mixin clearfix() {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
 
 /// Sprite positioning mixin
 /// @author TPu
-/// @param $arguments... - valid background-position arguments
-@mixin sprites($arguments...) {
-  background-image: url('../images/sprites.png');
+/// @param $url String - path to image asset with sprites
+/// @param $position... - valid background-position arguments
+@mixin sprites($url: '../images/sprites.png', $position...) {
+  background-image: url( $url );
   background-repeat: no-repeat;
-  background-position: $arguments;
+  background-position: $position;
 }
 
 /// Event wrapper
