@@ -15,7 +15,7 @@ html {
 
 /// Basic styles for links
 a {
-  color: $brand-color;
+  color: $brand-navy;
   text-decoration: none;
 
   @include on-event {
