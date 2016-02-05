@@ -12,4 +12,4 @@ SCSS folder organization is forked from [Hugo Giraudel's sass boilerplate][sass]
 - add functions and mixins from my other projects (VPP project)
 
 
-[sass]: (https://github.com/HugoGiraudel/sass-boilerplate)
+[sass]: https://github.com/HugoGiraudel/sass-boilerplate
