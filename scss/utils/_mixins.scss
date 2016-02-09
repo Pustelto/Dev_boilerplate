@@ -1,0 +1,77 @@
+//// This file contains all application-wide Sass mixins.
+
+/// Vertical centering with ghost element
+/// @link https://css-tricks.com/centering-in-the-unknown/
+@mixin ghost-elem () {
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+/// Clearfix mixin to eliminate non-semantic class clearfix if possible
+@mixin clearfix() {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+/// Sprite positioning mixin
+/// @author TPu
+/// @param $url String - path to image asset with sprites
+/// @param $position... - valid background-position arguments
+@mixin sprites($url: '../images/sprites.png', $position...) {
+  background-image: url( $url );
+  background-repeat: no-repeat;
+  background-position: $position;
+}
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+/// Responsive manager
+/// @param {String} $breakpoint - Breakpoint
+/// @requires $breakpoints
+/// @link http://sass-guidelin.es/#breakpoint-manager Sass Guidelines - Breakpoint Manager
+@mixin respond($breakpoint) {
+  $query: map-get($breakpoints, $breakpoint);
+
+  @if not $query {
+    @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.';
+  }
+
+  @media #{if(type-of($query) == 'string', unquote($query), inspect($query))} {
+    @content;
+  }
+}
