@@ -13,6 +13,18 @@ html {
   box-sizing: inherit;
 }
 
+/// Allow element to span entire hv and absolute positioning
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+/// Basic image responsivity and layout adjustment
+img {
+  display: block;
+  width: 100%;
+}
+
 /// Basic styles for links
 a {
   color: $brand-navy;
