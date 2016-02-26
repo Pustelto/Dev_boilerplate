@@ -1,0 +1,1637 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"con",
+				"cnt-oq	content: open-quote;"
+			],
+			[
+				"ta-",
+				"ta-l	text-align: left;"
+			],
+			[
+				"bcl",
+				"border-color"
+			],
+			[
+				"i",
+				"input-width"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"color",
+				"color-white"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"t",
+				"text-bottom"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"b",
+				"block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/base/_base.scss",
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 2002,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/main.scss",
+			"settings":
+			{
+				"buffer_size": 812,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pref",
+		"selected_items":
+		[
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"ss ",
+				"Set Syntax: SCSS"
+			],
+			[
+				"vari",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"ss md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"save al",
+				"File: Save All"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"alig",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
+			[
+				"ali",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"btn",
+				"BracketHighlighter: Select Tag Name (closing and opening)"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"ss css",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ss mkldw",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"pcd",
+				"Package Control: Disable Package"
+			],
+			[
+				"git",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"ppi",
+				"Package Control: Install Package"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"pc",
+				"Package Control: Enable Package"
+			],
+			[
+				"mkd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pc e",
+				"Package Control: Enable Package"
+			],
+			[
+				"pc di",
+				"Package Control: Disable Package"
+			],
+			[
+				"ss plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pc en",
+				"Package Control: Enable Package"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - Default"
+			],
+			[
+				"tag",
+				"BracketHighlighter: Select Tag Name (closing and opening)"
+			],
+			[
+				"pack en",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"ss mkd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"selec",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"ss mkdw",
+				"Set Syntax: Markdown"
+			],
+			[
+				"",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"save a",
+				"File: Save All"
+			],
+			[
+				"ss mrkd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"select",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"ss mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"alit",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"ss markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"tab",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"quo",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"saveal",
+				"File: Save All"
+			],
+			[
+				"qu",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"ss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ss mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"pacre",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefu",
+				"Preferences: Settings - User"
+			],
+			[
+				"paci",
+				"Package Control: Install Package"
+			],
+			[
+				"Paccr",
+				"Package Control: Install Package"
+			],
+			[
+				"pref ",
+				"Preferences: Settings - User"
+			],
+			[
+				"pacu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pref u",
+				"Preferences: Settings - User"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"settin",
+				"Preferences: Settings - User"
+			],
+			[
+				"ss cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss less",
+				"Set Syntax: LESS"
+			],
+			[
+				"ss htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pp l",
+				"Package Control: List Packages"
+			],
+			[
+				"ppre",
+				"Package Control: Remove Package"
+			],
+			[
+				"aliglp",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"packcdi",
+				"Package Control: Disable Package"
+			],
+			[
+				"pp e",
+				"Package Control: Enable Package"
+			],
+			[
+				"ss scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"aligment",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"brack",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"key",
+				"Preferences: Alignment Key Bindings – User"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate"
+	],
+	"file_history":
+	[
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/vendor-override/README.md",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/main.scss",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/atoms/README.md",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/utils/_mixins.scss",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/base/_helpers.scss",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/utils/_functions.scss",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/base/_typography.scss",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/base/_fonts.scss",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/package.json",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_package.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_label.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_price.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_panel.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/README.md",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/utils/_variables.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_checkbox.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_button.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_risk.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/main.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_infobox.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_radiobtn.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_datepicker.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_inf.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_line.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_select.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/vendor/susy/language/susy/_validation.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_input.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/utils/_mixins.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_ico.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_modal.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_slider.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_price-details.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/base/_base.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_link.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_false-input.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_col.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_policy-data.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_slides.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_footer.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/css/main.css",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/utils/_functions.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_feature-list.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_part.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/notes.md",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/CLIF/README.md",
+		"/C/Users/pustelnik/Documents/firewall_off.bat",
+		"/C/Users/pustelnik/Documents/firewall_on.bat",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_err.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_months.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_main.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_pagination.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/base/_typography.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_summary.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_contact-point.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_package-config.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_wicket-aa-container.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_limits.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_price-sum.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_information-wrapper.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_infoTrigger.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_voucher.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_information.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_insurance-price.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_insurance-info.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_ask.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_form-nav.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_wicket-ajax-indicator.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_header.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_steps.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_part.scss",
+		"/C/Users/pustelnik/Documents/Soukrome/RK Fiičák/Rada_21_11_KH.md",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/base/_helpers.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_driving-license.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/iauto_responsive.sublime-project",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/vendor/_normalize.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_btn.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/package.json",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto doladění UX/notex.md",
+		"/C/Users/pustelnik/Documents/Projekty/git.md",
+		"/C/Users/pustelnik/Documents/Allianz.txt",
+		"/C/Users/pustelnik/Documents/notes.txt",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_copy.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/base/_fonts.scss",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/azd/.gitignore",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto doladění UX/notes.md",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/bh_wrapping.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/AlignTab.sublime-settings",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/azd/forms/core/src/main/java/com/etnetera/projects/allianzdirect/portal/wicket/page/wizard2/step/car/Car2StepPackagesPanel.html",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/azd/forms/war/src/main/webapp/css/screen.v3.css",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/azd/forms/core/src/main/java/com/etnetera/projects/allianzdirect/portal/wicket/page/wizard2/step/car/modals/CkpPanel.html",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/azd/forms/core/src/main/java/com/etnetera/projects/allianzdirect/portal/wicket/components/basket/ShoppingBasketPanelV2.html",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/tools/apache-tomcat-7.0.64/conf/context.xml",
+		"/C/tools/apache-tomcat-7.0.64/conf/web.xml",
+		"/C/Users/pustelnik/.gitconfig",
+		"/C/Users/pustelnik/Documents/Projekty/Allianz/azd/shared/.classpath",
+		"/C/Users/pustelnik/Documents/Projekty/EON/Podzimní soutěž/notes.md",
+		"/C/tools/cmder/config/aliases",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/azd/.git/config",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/SEO_poradna/notes.html",
+		"/C/Users/pustelnik/Desktop/vpnlog.txt",
+		"/C/Program Files/OpenVPN/config/etnetera.ovpn",
+		"/C/Program Files/OpenVPN/config/etnetera/certs/etn-vpn.key",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/layout/_wrapper.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/utils/_variables.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/components/_buttons.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/layout/_footer.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/components/_contact.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/css/main.css",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/base/_typography.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/base/_fonts.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/index.html",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/layout/_col.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/forms/forms/src/main/webapp/WEB-INF/context.xml",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/components/_slogan.scss",
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/vendor/_normalize.scss",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/README.md"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 161.0,
+		"where_history":
+		[
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"themes",
+			"base",
+			"Base",
+			"import",
+			"arguments",
+			"color-white",
+			"__control",
+			"fff",
+			".panel--unrolled",
+			"76",
+			".panel:after",
+			".panel-wrapp",
+			"tooltip",
+			"toolt",
+			"white",
+			"relative",
+			":after",
+			"__control:aft",
+			"__control:afte",
+			".panel--unrolled",
+			"__wrapp",
+			"before",
+			"--unrolle",
+			"panel--unr",
+			"config",
+			"after",
+			"&",
+			"__wrapper",
+			"__info",
+			"ico",
+			"luggage",
+			"inline",
+			".riskno",
+			"&",
+			"panel__wrapper",
+			".panel--unr",
+			"&-",
+			"title",
+			"Zavřít",
+			"data",
+			"ffffff",
+			"003781",
+			"Dále",
+			"D",
+			"form",
+			"bgr",
+			"white",
+			"ray",
+			"color",
+			"transparent",
+			"before",
+			"static",
+			"999",
+			"fff",
+			"left",
+			"__conten",
+			"conten",
+			"header",
+			"tit",
+			"bottom",
+			"panel__title",
+			"fff",
+			"999",
+			"__tit",
+			"tariff",
+			"slides",
+			"infoTrigger",
+			"value",
+			"label",
+			"before",
+			"00d733",
+			"#;",
+			"voucher",
+			"top",
+			"packag",
+			"000",
+			"f4f4f4",
+			"sum",
+			"price",
+			"#",
+			"standardAssistance",
+			"; ",
+			"limits",
+			"risk",
+			"padding",
+			"c77405",
+			"__control",
+			"infoTrigger",
+			"__indicator",
+			"checkbox",
+			"400",
+			"absolute",
+			"infoTrigger",
+			"price",
+			"ff6f00",
+			"info",
+			"white",
+			"wrapper",
+			"components",
+			"layout",
+			"top",
+			"tablet",
+			"brnad",
+			"ccc",
+			"white",
+			"clearfix",
+			"bcbcbc",
+			"fff",
+			"border",
+			"cbcbcb",
+			"input",
+			"ce0037",
+			"ffe1e9",
+			"eefdf1",
+			"00d733",
+			" #",
+			"text",
+			"00d733",
+			"d9efff",
+			"fff",
+			"z-",
+			"input",
+			"left",
+			"text",
+			"components",
+			"compo",
+			"left",
+			"before"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&__sub-cat",
+			";\n",
+			"$text-base",
+			"///",
+			"insite",
+			"url('<? ref(_template.images.sprites) ?>')",
+			"url('<? ref(_template.images.bg) ?>')",
+			"<? ref(_template.images.bg) ?>",
+			"url('<? ref(_template.images.bg) ?>')",
+			"url('<? ref(_template.images.sprites) ?>')",
+			"url('<? ref(_template.images.bg) ?>')",
+			"url('<? ref(_template.images.sprites) ?>')",
+			"url('<? ref(_template.images.bg) ?>')",
+			"$text-lead",
+			"=",
+			"product",
+			" = ",
+			",\"\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/base/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								647,
+								647
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1065,
+								1065
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 292.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								654
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 70.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sass_dev_boilerplate.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"main",
+				"scss\\main.scss"
+			],
+			[
+				"mixin",
+				"scss\\utils\\_mixins.scss"
+			],
+			[
+				"functio",
+				"scss\\utils\\_functions.scss"
+			],
+			[
+				"typo",
+				"scss\\base\\_typography.scss"
+			],
+			[
+				"pane",
+				"scss\\components\\_panel.scss"
+			],
+			[
+				"vari",
+				"scss\\utils\\_variables.scss"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"risk",
+				"scss\\components\\_risk.scss"
+			],
+			[
+				"panel",
+				"scss\\components\\_panel.scss"
+			],
+			[
+				"",
+				"README.md"
+			],
+			[
+				"chec",
+				"scss\\components\\_checkbox.scss"
+			],
+			[
+				"infob",
+				"scss\\components\\_infobox.scss"
+			],
+			[
+				"date",
+				"scss\\components\\_datepicker.scss"
+			],
+			[
+				"inf",
+				"scss\\components\\_inf.scss"
+			],
+			[
+				"line",
+				"scss\\components\\_line.scss"
+			],
+			[
+				"sele",
+				"scss\\components\\_select.scss"
+			],
+			[
+				"val",
+				"scss\\vendor\\susy\\language\\susy\\_validation.scss"
+			],
+			[
+				"input",
+				"scss\\components\\_input.scss"
+			],
+			[
+				"radio",
+				"scss\\components\\_radiobtn.scss"
+			],
+			[
+				"rad",
+				"scss\\components\\_radiobtn.scss"
+			],
+			[
+				"check",
+				"scss\\components\\_checkbox.scss"
+			],
+			[
+				"radi",
+				"scss\\components\\_radiobtn.scss"
+			],
+			[
+				"che",
+				"scss\\components\\_checkbox.scss"
+			],
+			[
+				"ico",
+				"scss\\components\\_ico.scss"
+			],
+			[
+				"modal",
+				"scss\\components\\_modal.scss"
+			],
+			[
+				"label",
+				"scss\\components\\_label.scss"
+			],
+			[
+				"slider",
+				"scss\\components\\_slider.scss"
+			],
+			[
+				"price",
+				"scss\\components\\_price.scss"
+			],
+			[
+				"bas",
+				"scss\\base\\_base.scss"
+			],
+			[
+				"pri",
+				"scss\\components\\_price.scss"
+			],
+			[
+				"slide",
+				"scss\\components\\_slides.scss"
+			],
+			[
+				"func",
+				"scss\\utils\\_functions.scss"
+			],
+			[
+				"list",
+				"scss\\components\\_feature-list.scss"
+			],
+			[
+				"butt",
+				"scss\\components\\_button.scss"
+			],
+			[
+				"part",
+				"scss\\layout\\_part.scss"
+			],
+			[
+				"inpu",
+				"scss\\components\\_input.scss"
+			],
+			[
+				"labe",
+				"scss\\components\\_label.scss"
+			],
+			[
+				"link",
+				"scss\\components\\_link.scss"
+			],
+			[
+				"err",
+				"scss\\components\\_err.scss"
+			],
+			[
+				"mont",
+				"scss\\components\\_months.scss"
+			],
+			[
+				"ioc",
+				"scss\\components\\_ico.scss"
+			],
+			[
+				"pa",
+				"scss\\components\\_panel.scss"
+			],
+			[
+				"pagi",
+				"scss\\components\\_pagination.scss"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"rice",
+				"scss\\components\\_price-details.scss"
+			],
+			[
+				"base",
+				"scss\\base\\_base.scss"
+			],
+			[
+				"summary",
+				"scss\\components\\_summary.scss"
+			],
+			[
+				"conta",
+				"scss\\components\\_contact-point.scss"
+			],
+			[
+				"ra",
+				"scss\\components\\_radiobtn.scss"
+			],
+			[
+				"con",
+				"scss\\components\\_contact-point.scss"
+			],
+			[
+				"foot",
+				"scss\\layout\\_footer.scss"
+			],
+			[
+				"wick",
+				"scss\\components\\_wicket-aa-container.scss"
+			],
+			[
+				"se",
+				"scss\\components\\_select.scss"
+			],
+			[
+				"limit",
+				"scss\\components\\_limits.scss"
+			],
+			[
+				"mai",
+				"scss\\main.scss"
+			],
+			[
+				"but",
+				"scss\\components\\_button.scss"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"limi",
+				"scss\\components\\_limits.scss"
+			],
+			[
+				"info",
+				"scss\\components\\_information-wrapper.scss"
+			],
+			[
+				"slides",
+				"scss\\components\\_slides.scss"
+			],
+			[
+				"infot",
+				"scss\\components\\_infoTrigger.scss"
+			],
+			[
+				"ri",
+				"scss\\components\\_risk.scss"
+			],
+			[
+				"baes",
+				"scss\\base\\_base.scss"
+			],
+			[
+				"button",
+				"scss\\components\\_button.scss"
+			],
+			[
+				"insu",
+				"scss\\components\\_insurance-info.scss"
+			],
+			[
+				"moda",
+				"scss\\components\\_modal.scss"
+			],
+			[
+				"fonr",
+				"scss\\layout\\_form-nav.scss"
+			],
+			[
+				"main.",
+				"scss\\main.scss"
+			],
+			[
+				"_main",
+				"scss\\layout\\_main.scss"
+			],
+			[
+				"form",
+				"scss\\layout\\_form-nav.scss"
+			],
+			[
+				"heade",
+				"scss\\layout\\_header.scss"
+			],
+			[
+				"vou",
+				"scss\\components\\_voucher.scss"
+			],
+			[
+				"vouche",
+				"scss\\components\\_voucher.scss"
+			],
+			[
+				"foote",
+				"scss\\layout\\_footer.scss"
+			],
+			[
+				"steps",
+				"scss\\components\\_steps.scss"
+			],
+			[
+				"step",
+				"scss\\components\\_steps.scss"
+			],
+			[
+				"month",
+				"scss\\components\\_months.scss"
+			],
+			[
+				"datep",
+				"scss\\components\\_datepicker.scss"
+			],
+			[
+				"mixi",
+				"scss\\utils\\_mixins.scss"
+			],
+			[
+				"helpe",
+				"scss\\base\\_helpers.scss"
+			],
+			[
+				"mon",
+				"scss\\components\\_months.scss"
+			],
+			[
+				"ipu",
+				"scss\\components\\_input.scss"
+			],
+			[
+				"in",
+				"scss\\components\\_infobox.scss"
+			],
+			[
+				".sub",
+				"iauto_responsive.sublime-project"
+			],
+			[
+				"anel",
+				"scss\\components\\_panel.scss"
+			],
+			[
+				"help",
+				"scss\\base\\_helpers.scss"
+			],
+			[
+				"selec",
+				"scss\\components\\_select.scss"
+			],
+			[
+				"var",
+				"scss\\utils\\_variables.scss"
+			],
+			[
+				"feat",
+				"scss\\components\\_feature-list.scss"
+			],
+			[
+				"fea",
+				"scss\\components\\_feature-list.scss"
+			],
+			[
+				"featu",
+				"scss\\components\\_feature-list.scss"
+			],
+			[
+				"butto",
+				"scss\\components\\_button.scss"
+			],
+			[
+				"norma",
+				"scss\\vendor\\_normalize.scss"
+			],
+			[
+				"head",
+				"scss\\layout\\_header.scss"
+			],
+			[
+				"bt",
+				"scss\\components\\_btn.scss"
+			],
+			[
+				"btn",
+				"scss\\components\\_btn.scss"
+			],
+			[
+				"hea",
+				"scss\\layout\\_header.scss"
+			],
+			[
+				"copy",
+				"scss\\layout\\_copy.scss"
+			],
+			[
+				"pan",
+				"scss\\components\\_panel.scss"
+			],
+			[
+				"typ",
+				"scss\\base\\_typography.scss"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"fon",
+				"scss\\base\\_fonts.scss"
+			],
+			[
+				"mix",
+				"scss\\utils\\_mixins.scss"
+			],
+			[
+				"mi",
+				"scss\\utils\\_mixins.scss"
+			],
+			[
+				"screen.v3",
+				"forms\\war\\src\\main\\webapp\\css\\screen.v3.css"
+			],
+			[
+				"cont",
+				"scss\\components\\_contact.scss"
+			],
+			[
+				"wrapp",
+				"scss\\layout\\_wrapper.scss"
+			],
+			[
+				"main.c",
+				"css\\main.css"
+			],
+			[
+				"fo",
+				"scss\\base\\_fonts.scss"
+			],
+			[
+				"git",
+				"C:\\Users\\pustelnik\\.gitconfig"
+			],
+			[
+				"slogan",
+				"scss\\components\\_slogan.scss"
+			],
+			[
+				"norm",
+				"scss\\vendor\\_normalize.scss"
+			],
+			[
+				"app",
+				"scss\\components\\_app.scss"
+			],
+			[
+				"main.cs",
+				"css\\main.css"
+			],
+			[
+				"col",
+				"scss\\layout\\_col.scss"
+			],
+			[
+				"indx",
+				"index.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"mian.sc",
+				"scss\\main.scss"
+			],
+			[
+				"conte",
+				"scss\\layout\\_content.scss"
+			],
+			[
+				"main.sc",
+				"scss\\main.scss"
+			],
+			[
+				"wra",
+				"scss\\layout\\_wrapper.scss"
+			],
+			[
+				"de",
+				"scss\\themes\\_default.scss"
+			],
+			[
+				"wrap",
+				"scss\\layout\\_wrapper.scss"
+			],
+			[
+				"he",
+				"scss\\base\\_helpers.scss"
+			],
+			[
+				"nor",
+				"scss\\vendor\\_normalize.scss"
+			],
+			[
+				"tile",
+				"scss\\components\\_tile.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\pustelnik\\Documents\\Projekty\\work_notes.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
