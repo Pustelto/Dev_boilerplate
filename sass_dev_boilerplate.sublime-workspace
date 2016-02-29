@@ -90,22 +90,6 @@
 				"buffer_size": 860,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 2002,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/main.scss",
-			"settings":
-			{
-				"buffer_size": 812,
-				"line_ending": "Windows"
-			}
 		}
 	],
 	"build_system": "",
@@ -115,10 +99,30 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "pref",
+		"height": 230.0,
+		"last_filter": "ss json",
 		"selected_items":
 		[
+			[
+				"ss json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ss js",
+				"Set Syntax: JSON"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"align",
+				"AlignTab: Live Preview Mode"
+			],
 			[
 				"pref",
 				"Preferences: Settings - User"
@@ -248,10 +252,6 @@
 				"Package Control: Upgrade Package"
 			],
 			[
-				"pack",
-				"Package Control: Enable Package"
-			],
-			[
 				"ss mkd",
 				"Set Syntax: Markdown"
 			],
@@ -364,10 +364,6 @@
 				"Set Syntax: CSS"
 			],
 			[
-				"ss js",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"ss pla",
 				"Set Syntax: Plain Text"
 			],
@@ -416,10 +412,6 @@
 				"Preferences: Alignment Key Bindings – Default"
 			],
 			[
-				"align",
-				"Preferences: Alignment Key Bindings – Default"
-			],
-			[
 				"brack",
 				"BracketHighlighter: Select Bracket Content"
 			],
@@ -449,21 +441,29 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate"
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/node_modules/babel-polyfill",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/node_modules/babel-polyfill/dist"
 	],
 	"file_history":
 	[
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/package.json",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/js/.jshintrc",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/index.html",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/js/main.js",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/.babelrc",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/main.scss",
 		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
 		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/vendor-override/README.md",
-		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/main.scss",
 		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/atoms/README.md",
 		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/utils/_mixins.scss",
 		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/base/_helpers.scss",
 		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/utils/_functions.scss",
 		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/base/_typography.scss",
 		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/scss/base/_fonts.scss",
-		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/package.json",
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/layout/_package.scss",
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_label.scss",
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto responsive/scss/components/_price.scss",
@@ -542,7 +542,6 @@
 		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/azd/.gitignore",
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/iAuto doladění UX/notes.md",
-		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
 		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
 		"/C/Users/pustelnik/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
@@ -575,12 +574,7 @@
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/css/main.css",
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/base/_typography.scss",
 		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/base/_fonts.scss",
-		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/index.html",
-		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/layout/_col.scss",
-		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/forms/forms/src/main/webapp/WEB-INF/context.xml",
-		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/components/_slogan.scss",
-		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/scss/vendor/_normalize.scss",
-		"/C/Users/pustelnik/Documents/Projekty/sass_dev_boilerplate/README.md"
+		"/C/Users/pustelnik/Documents/Projekty/AllianzAZD/VPP_MS/index.html"
 	],
 	"find":
 	{
@@ -600,6 +594,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"parallelshell",
+			"esnext",
+			"jshint",
+			"\"(\\w+)\".*: \"",
 			"themes",
 			"base",
 			"Base",
@@ -723,18 +721,16 @@
 			"z-",
 			"input",
 			"left",
-			"text",
-			"components",
-			"compo",
-			"left",
-			"before"
+			"text"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\"$1\": \"",
+			"\"($1)\": \"",
 			"&__sub-cat",
 			";\n",
 			"$text-base",
@@ -763,7 +759,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -788,61 +784,61 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
@@ -853,184 +849,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2002,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1065,
-								1065
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 292.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scss/main.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 812,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								654,
-								654
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1084,6 +903,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ma",
+				"js\\main.js"
+			],
 			[
 				"pack",
 				"package.json"
@@ -1591,10 +1414,6 @@
 			[
 				"nor",
 				"scss\\vendor\\_normalize.scss"
-			],
-			[
-				"tile",
-				"scss\\components\\_tile.scss"
 			]
 		],
 		"width": 0.0
