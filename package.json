@@ -1,6 +1,6 @@
 {
     "name": "npm-task-runner",
-    "version": "0.8.2",
+    "version": "1.0.0",
     "author": "Tomas Pustelnik",
     "description": "My Custom NPM task runner for web development, processing CSS and JS (and maybe doing much more in the future)",
     "repository" : {
@@ -27,9 +27,11 @@
         "uglifyjs"                       : "latest",
 
         "watch"                          : "latest",
-        "parallelshell"                  : "latest"
+        "parallelshell"                  : "latest",
+        "browser-sync"                   : "latest"
     },
     "scripts": {
+        "start": "parallelshell \"npm run browsersync\" \"npm run watch\"",
         "clear": "rimraf dist",
 
         "prebuild": "npm run clear",
@@ -37,14 +39,15 @@
 
         "build:css": "npm run build:sass",
         "postbuild:css": "npm run postcss && npm run minify:css",
-        "build:sass": "node-sass --style expanded scss/main.scss screen.css",
-        "build:babel": "babel js/main.js --out-file js/main-compiled.js -s",
+        "build:sass": "node-sass --style expanded scss/main.scss css/main.css",
+        "prebuild:babel": "mkdirp dist/js",
+        "build:babel": "babel js/main.js --out-file dist/js/main-compiled.js -s",
         "build:js": "npm run build:babel && minify:js",
 
         "postcss": "npm run autoprefixer && npm run PostCSS-opacity && npm run PostCSS-pixrem",
-        "autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers \"> 1%\" -o screen.css screen.css",
-        "PostCSS-opacity": "postcss -u postcss-opacity -o screen.css screen.css",
-        "PostCSS-pixrem": "postcss -u pixrem -o screen.css screen.css",
+        "autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers \"> 1%\" -o css/main.css css/main.css",
+        "PostCSS-opacity": "postcss -u postcss-opacity -o css/main.css css/main.css",
+        "PostCSS-pixrem": "postcss -u pixrem -o css/main.css css/main.css",
 
         "watch": "parallelshell \"npm run watch:css\" \"npm run watch:js\"",
         "watch:css": "watch \"npm run build:sass\" scss/",
@@ -55,6 +58,8 @@
         "precssnano": "mkdirp dist/css",
         "cssnano": "cssnano css/main.css dist/css/main.min.css --no-autoprefixer",
 
-        "minify:js": "mkdirp dist/js && uglifyjs js/main-compiled.js > dist/js/main.min.js"
+        "minify:js": "mkdirp dist/js && uglifyjs dist/js/main-compiled.js > dist/js/main.min.js",
+
+        "browsersync": "browser-sync start --server --files \"css/*.css\""
     }
 }
