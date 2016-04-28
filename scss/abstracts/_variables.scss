@@ -15,6 +15,12 @@ $susy: (
   'global-box-sizing': 'border-box'
 );
 
+/// Asset path
+/// Basic path to assets, used for asset function
+/// @type String
+/// @see {function} asset
+$asset-url: '../assets/';
+
 /// Colors
 /// @type Color
 $color-text       : #FFFFFF !default;
