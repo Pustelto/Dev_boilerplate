@@ -5,9 +5,9 @@
   //'vendor/susy';
 
 /// 2. Configuration and helpers
-@import 'utils/variables';
-@import 'utils/functions';
-@import 'utils/mixins';
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
 
 /// 3. Base stuff
 @import 'base/fonts';
