@@ -1,5 +1,5 @@
 {
-    "name": "npm-task-runner",
+    "name": "peon",
     "version": "1.0.0",
     "author": "Tomas Pustelnik",
     "description": "My Custom NPM task runner for web development, processing CSS and JS (and maybe doing much more in the future)",
