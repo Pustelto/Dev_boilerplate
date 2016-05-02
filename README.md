@@ -4,12 +4,9 @@ My boilerplate folder for web development. It have all the basics I use in most 
 SCSS folder organization is forked from [Hugo Giraudel's sass boilerplate][sass] and modified to my liking (a lot of work still needs to be done).
 
 ## To-Do
-- Finish own CSS reset (most CSS resets are too big for me, especialy for smaller projects, as such I want to create small reset modules which I can add as necessary) Planned modules:
-    - ie8/9 hakcs
-    - core (most common elements - ul, p, a etc.)
-    - forms (form elements)
-    - other not so often elements (pre, blockquote apod.)
-- add functions and mixins from my other projects (VPP project)
+
+- reconsider folder structure (general - mainly asset folder, scss folder - maybe based on ITCSS or OOCSS)
+- split `_variables.scss` into several files ( `_colors.scss, _text.scss`etc.)
 
 
 [sass]: https://github.com/HugoGiraudel/sass-boilerplate
