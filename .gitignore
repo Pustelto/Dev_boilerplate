@@ -42,6 +42,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
 # ---
 # Custom ignore ruleset
 # ---
@@ -49,3 +50,10 @@ Temporary Items
 # Ignore npm and bower
 node_modules/
 bower_components/
+
+# Ignore Sublime workspace
+*.sublime-workspace
+
+# Ignore built folders and files
+css/
+dist/
