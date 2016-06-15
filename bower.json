@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "Normy": "git://github.com/Pustelto/Normy.git"
+    "Normy": "git://github.com/Pustelto/Normy.git",
+    "include-media": "^1.4.5"
   }
 }
