@@ -1,0 +1,1 @@
+Asset folder for all images (Public and CSS).

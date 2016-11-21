@@ -1,0 +1,43 @@
+.ico-link {
+  position: relative;
+  border: 0;
+  color: currentcolor;
+  background-color: transparent;
+  transform: scale(1);
+  transition: transform 0.25s ease-in-out;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    transform: scale(1.4);
+  }
+}
+
+.ico-link__ico {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+
+  &:after {
+    position: absolute;
+  }
+}
+
+.ico-link__ico:not(:last-child) {
+  margin-right: 0.75rem;
+}
+
+.ico-link--subtle {
+  &:focus,
+  &:hover {
+    transform: scale(1.2);
+  }
+}

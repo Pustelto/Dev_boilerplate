@@ -1,0 +1,32 @@
+/// Grid layout
+.container {
+    @include clearfix;
+    @include phi-content( $grid );
+
+    transition: margin 0.5s linear;
+
+    @include media( '<=grid-small' ) {
+      margin: 0 phi-margin(0);
+    }
+    @include media( '>grid-small', '<=grid-medium' ) {
+      margin: 0 phi-margin(1);
+    }
+    @include media( '>grid-medium', '<=grid-large-xl' ) {
+      margin: 0 phi-margin(2);
+    }
+}
+
+.container--padded {
+  padding-top: enigmaLeading(1);
+  padding-bottom: enigmaLeading(1);
+
+  @include media('>grid-xs') {
+    padding-top: enigmaLeading(2);
+    padding-bottom: enigmaLeading(2);
+  }
+
+  @include media('>grid-medium') {
+    padding-top: enigmaLeading(3);
+    padding-bottom: enigmaLeading(3);
+  }
+}

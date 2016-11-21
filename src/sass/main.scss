@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+/// 1. Vendors
+// @import '../../bower_components/Normy/normy-core';
+// @import '../../bower_components/Enigma/dist/enigma';
+// @import '../../bower_components/include-media/dist/include-media';
+
+/// 2. Configuration and helpers
+@import 'abstracts/a-settings';
+@import 'abstracts/a-colors';
+@import 'abstracts/a-text';
+@import 'abstracts/a-functions';
+@import 'abstracts/a-mixins';
+
+/// 3. Base stuff
+@import 'base/fonts';
+@import 'base/keyframes';
+@import 'base/base';
+@import 'base/typography';
+
+/// 4. Atoms - basic webpage elements
+/// @link http://bradfrost.com/blog/post/atomic-web-design/
+
+/// 5. Components
+
+/// 6. Layout-related sections
+
+/// 7. Page-specific styles
+
+/// 8. Vendor overrides (CSS for plugins etc.)
+@import 'utility/helpers';
+@import 'utility/u-media';
+
+/// 9. Shame file for ugly CSS breaking rules or in need of refactoring
+/// @link http://csswizardry.com/2013/04/shame-css/

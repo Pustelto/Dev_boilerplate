@@ -1,17 +1,18 @@
 {
-    "folders":
-    [
-        {
-            "path": ".",
-            "file_exclude_patterns":
-            [
-                "*.sublime-project",
-                "**/.*"
-            ],
-            "folder_exclude_patterns":
-            [
-                "node_modules"
-            ]
-        }
-    ]
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-project",
+				".gitattributes"
+			],
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				".sass-cache"
+			],
+			"path": "."
+		}
+	]
 }

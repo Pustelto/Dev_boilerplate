@@ -1,65 +1,45 @@
 {
-    "name": "peon",
-    "version": "1.0.0",
-    "author": "Tomas Pustelnik",
-    "description": "My Custom NPM task runner for web development, processing CSS and JS (and maybe doing much more in the future)",
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/Pustelto/Dev_boilerplate.git"
-    },
-    "devDependencies"  : {
-        "rimraf"                         : "latest",
-        "mkdirp"                         : "latest",
-
-        "node-sass"                      : "latest",
-        "postcss-cli"                    : "latest",
-        "autoprefixer"                   : "latest",
-        "postcss-opacity"                : "latest",
-        "pixrem"                         : "latest",
-        "cssnano-cli"                    : "latest",
-
-        "babel-cli"                      : "^6.0.0",
-        "babel-preset-es2015"            : "latest",
-        "babel-polyfill"                 : "latest",
-        "babel-plugin-transform-runtime" : "latest",
-        "babel-runtime"                  : "latest",
-
-        "uglifyjs"                       : "latest",
-
-        "watch"                          : "latest",
-        "parallelshell"                  : "latest",
-        "browser-sync"                   : "latest"
-    },
-    "scripts": {
-        "start": "parallelshell \"npm run browsersync\" \"npm run watch\"",
-        "clear": "rimraf dist",
-
-        "prebuild": "npm run clear",
-        "build": "npm run build:css && npm run build:js",
-
-        "build:css": "npm run build:sass",
-        "postbuild:css": "npm run postcss && npm run minify:css",
-        "build:sass": "node-sass --style expanded scss/main.scss css/main.css",
-        "prebuild:babel": "mkdirp dist/js",
-        "build:babel": "babel js/main.js --out-file dist/js/main-compiled.js -s",
-        "build:js": "npm run build:babel && minify:js",
-
-        "postcss": "npm run autoprefixer && npm run PostCSS-opacity && npm run PostCSS-pixrem",
-        "autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers \"> 1%\" -o css/main.css css/main.css",
-        "PostCSS-opacity": "postcss -u postcss-opacity -o css/main.css css/main.css",
-        "PostCSS-pixrem": "postcss -u pixrem -o css/main.css css/main.css",
-
-        "watch": "parallelshell \"npm run watch:css\" \"npm run watch:js\"",
-        "watch:css": "watch \"npm run build:sass\" scss/",
-        "watch:js": "watch \"npm run build:babel\" js/",
-
-        "minify": "npm run minify:css && npm run minify:js",
-        "minify:css": "npm run cssnano",
-        "precssnano": "mkdirp dist/css",
-        "cssnano": "cssnano css/main.css dist/css/main.min.css --no-autoprefixer",
-
-        "minify:js": "mkdirp dist/js && uglifyjs dist/js/main-compiled.js > dist/js/main.min.js",
-
-        "browsersync": "browser-sync start --server --files \"css/*.css\""
-    }
+  "name": "peon",
+  "version": "1.0.0",
+  "author": "Tomas Pustelnik",
+  "description": "My Custom NPM task runner for web development, processing CSS and JS (and maybe doing much more in the future)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pustelto/Dev_boilerplate.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "browser-sync": "^2.17.5",
+    "critical": "^0.8.0",
+    "cssnano": "^3.8.0",
+    "del": "^2.2.2",
+    "eslint": "^3.9.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.0",
+    "gulp-changed": "^1.3.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-css-url": "^0.1.0",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-webp": "^2.3.0",
+    "pixrem": "^3.0.2",
+    "postcss5-opacity": "^2.0.2",
+    "webpack": "^1.13.3"
+  }
 }

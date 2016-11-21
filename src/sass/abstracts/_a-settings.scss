@@ -1,0 +1,47 @@
+////
+/// This file contains general utility variables
+////
+
+/// Grid settings
+/// @TODO - posible to add scale number to universal grid calculations
+/// @TODO - map with breakpoints for container margin
+$grid: (
+  'width': 1400px,
+  'gutter': enigmaSize(0)
+);
+
+/// Asset path
+/// Basic path to assets, used for asset function
+/// @type String
+/// @see {function} asset
+$asset-url: '../';
+
+/// Z-index map
+/// @prop {String} keys - Keys are identifiers mapped to a given z-index
+/// @prop {Number} values - Values are actual values of z-index
+/// @see {function} z
+$z-indexes: (
+    'below': -1,
+    'zero': 0,
+    'base': 1,
+    'above': 2,
+    'front': 5,
+    'tooltip': 20,
+    'dropdown': 200,
+    'menu': 300,
+    'overlay': 400,
+    'modal': 500,
+);
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+/// @see {mixin} respond-to
+$breakpoints: (
+  'grid-small': 480px,
+  'grid-xs' : 640px,
+  'grid-medium': 1040px,
+  'grid-medium-xl': 1260px,
+  'grid-large': 1356px,
+  'grid-large-xl': 1500px
+);

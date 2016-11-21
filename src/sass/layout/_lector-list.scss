@@ -1,0 +1,49 @@
+.lector-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: space-around;
+  list-style: none;
+}
+
+.lector-list__lector {
+  display: block;
+  width: 50%;
+  margin-bottom: enigmaLeading(1);
+
+  @include media('>grid-xs') {
+    width: 33%;
+    margin-bottom: enigmaLeading(2);
+  }
+
+  @include media('>grid-medium') {
+    width: 25%;
+  }
+}
+
+// Zero bottom margin for last two items
+@include media('<=grid-xs') {
+  .lector-list__lector:nth-last-child(-1n + 2) {
+    margin-bottom: 0;
+  }
+}
+
+@include media('>grid-xs','<=grid-medium') {
+  .lector-list__lector:nth-child(5n + 1){
+    margin-left: 17%;
+  }
+  .lector-list__lector:nth-child(5n + 2){
+    margin-right: 17%;
+  }
+}
+
+@include media('>grid-medium') {
+  .lector-list__lector:nth-child(7n + 1) {
+    margin-left: 12%;
+  }
+
+  .lector-list__lector:nth-child(7n + 3) {
+    margin-right: 12%;
+  }
+}

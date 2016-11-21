@@ -1,0 +1,12 @@
+.hero {
+  display: none;
+
+  @include media('>grid-medium') {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: z('base');
+    min-width: 1920px;
+  }
+}

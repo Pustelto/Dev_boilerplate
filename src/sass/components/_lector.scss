@@ -1,0 +1,44 @@
+.lector {
+  padding: 0 enigmaLeading(0.25);
+}
+
+.lector__img {
+  display: block;
+  width: 100%;
+  max-width: enigmaLeading(5);
+  margin: 0 auto;
+  padding: 10px;
+  background-color: $lector-inner-border;
+  border-radius: 50%;
+  border: 1px solid $lector-outer-border;
+  cursor: pointer;
+
+  @include media('>grid-medium') {
+    transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
+    transform: scale(1);
+    //transform: scale(1) rotate3d(0, 0, 0, 0);
+    //transform-origin: left top;
+    //transform-style: preserve-3d;
+
+    &:focus,
+    &:hover {
+      outline: 0;
+      transform: scale(1.1);
+      //transform: scale(1.1) rotate3d(1.2, -1, 0.1, 25deg);
+      box-shadow: 2px 2px 0.5rem rgba($bg-brown, 0.8);
+    }
+  }
+}
+
+.lector__info {
+  display: none;
+  visibility: hidden;
+}
+
+.lector__name {
+  @include enigma(2 with 1 1);
+
+  @include media('>grid-medium') {
+    @include enigma(3 with 0 0)
+  }
+}

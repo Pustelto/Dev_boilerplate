@@ -1,0 +1,14 @@
+////
+/// This file containes custom fonts declarations
+////
+
+/// Icon font
+@font-face {
+    font-family: 'icomoon';
+    src:
+        font('icomoon.ttf?vipfoa') format('truetype'),
+        font('icomoon.woff?vipfoa') format('woff'),
+        font('icomoon.svg?vipfoa#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

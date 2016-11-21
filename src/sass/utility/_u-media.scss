@@ -1,0 +1,16 @@
+// Generate utility classes to show/hide element on specific devices.
+// Classes are generated from $breakpoints variable which is used
+// for media query.
+@each $bp, $size in $breakpoints {
+  @include media( '<=#{$bp}' ) {
+    .u-media--#{$bp}-show {
+      display: none !important;
+    }
+  }
+
+  @include media( '>#{$bp}' ) {
+    .u-media--#{$bp}-hide {
+      display: none !important;
+    }
+  }
+}

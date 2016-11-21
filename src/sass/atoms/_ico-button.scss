@@ -1,0 +1,6 @@
+.ico-button {
+  @include enigma(1 with 0 0);
+  display: inline-flex;
+  align-items: center;
+  font-family: $sans-font-stack;
+}

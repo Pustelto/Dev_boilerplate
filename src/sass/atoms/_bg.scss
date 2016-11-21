@@ -1,0 +1,45 @@
+.bg--green {
+  background: image('bg-green.jpg');
+  color: $color-light-brown;
+}
+
+.bg--tree-shape {
+  margin-top: enigmaLeading(3) * -1;
+  margin-right: -10rem;
+  margin-left: -10rem;
+  padding-top: enigmaLeading(3);
+  padding-bottom: enigmaLeading(3);
+  padding-right: 10rem;
+  padding-left: 10rem;
+  border-radius: 70% 55% 55% 65% / 10rem 10rem 11rem 11rem;
+
+  @include media('>grid-xs') {
+    margin-top: enigmaLeading(5) * -1;
+    padding-top: enigmaLeading(4);
+  }
+}
+
+.bg--brown {
+  background: $bg-brown;
+  color: $color-light-brown;
+}
+
+.bg--branch {
+  @include media('>grid-medium') {
+    padding-bottom: enigmaLeading(4);
+    background-position: 0 enigmaLeading(9);
+    background-repeat:  no-repeat;
+  }
+}
+
+.no-webp .bg--branch {
+  @include media('>grid-medium') {
+    background-image: image('bg-branch.png');
+  }
+}
+
+.webp.webp-alpha.webp-lossless .bg--branch {
+  @include media('>grid-medium') {
+    background-image: image('bg-branch.webp');
+  }
+}

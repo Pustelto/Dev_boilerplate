@@ -1,0 +1,23 @@
+.h-list {
+  display: flex;
+  list-style: none;
+}
+
+.h-list__item {
+  display: flex;
+  align-items: center;
+  margin-right: enigmaLeading(0);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.h-list--right {
+  justify-content: flex-end;
+}
+
+.h-list--center {
+  justify-content: center;
+}
+

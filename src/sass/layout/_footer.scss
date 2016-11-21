@@ -1,0 +1,23 @@
+@include media('<=grid-medium') {
+  .footer {
+    justify-content: center;
+  }
+
+  .footer__primary,
+  .footer__secondary,
+  .footer__terciary {
+    margin-bottom: enigmaLeading();
+  }
+
+  .footer__primary {
+    order: 1;
+  }
+
+  .footer__secondary {
+    order: 2;
+  }
+
+  .footer__terciary {
+    order: 3;
+  }
+}

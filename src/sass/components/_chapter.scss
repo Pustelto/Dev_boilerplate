@@ -1,0 +1,41 @@
+// [1] remove huge whitespace above subtitle
+.chapter {
+  margin-top: 0;
+  margin-bottom: enigmaLeading(1.5);
+  text-align: center;
+  line-height: 0; // [1]
+}
+
+// [1] add reasonable space around elements so the chapter headings looks compact
+.chapter > * {
+  line-height: 1; // [1]
+}
+
+.chapter__subtitle {
+  font-family: $sans-font-stack;
+  font-size: ( 28 / stripUnit(map_get( $enigma, 'root' ) ) ) * 1rem;
+  font-weight: 400;
+}
+
+@include media('<=grid-xs') {
+  .chapter__title {
+    font-size: enigmaSize(5);
+    line-height: enigmaLine(1 real);
+    vertical-align: top;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      height: enigmaLine(5) * enigmaSize(5);
+    }
+  }
+}
+
+@include media('>grid-xs') {
+  // [1] compoensate for height of component in order to keep it
+  // in vertical rhythm - extra 0.5 in enigmaLeading
+  .chapter {
+    margin-top: enigmaLeading(0.5); // [1]
+    margin-bottom: enigmaLeading(2.5);
+  }
+}

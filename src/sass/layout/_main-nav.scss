@@ -1,0 +1,82 @@
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  perspective: 1600px;
+  perspective-origin: center 60%;
+  z-index: z('menu');
+  height: 100vh;
+}
+
+.main-nav__panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: $color-dark-brown;
+  transform-origin: left top 0;
+  transition: transform 0.75s ease-out 0.1s;
+  transform: rotate3d(0, -1, 0, 90deg);
+  transform-style: preserve-3d;
+  color: $color-light-brown;
+  will-change: transform;
+  z-index: z('modal');
+
+  @include media('>grid-xs') {
+    // @FIXME nastavit správnou šířku dle gridu
+    width: phi-margin(5);
+  }
+
+  // @include media('>grid-medium') {
+  //   // @FIXME nastavit správnou šířku dle gridu
+  //   width: enigmaLeading(32);
+  // }
+
+  // @include media('>grid-large') {
+  //   // @FIXME nastavit správnou šířku dle gridu
+  //   width: ( 1920 * (1 / 1.618) / stripUnit(map_get($enigma, 'root')) ) * 1rem;
+  // }
+}
+
+.main-nav__button {
+  font-size: enigmaSize(1);
+}
+
+.main-nav__content {
+  padding: 0 enigmaLeading(1) enigmaLeading(1);
+
+  @include media('>grid-medium') {
+    padding: 0 enigmaLeading(2) enigmaLeading(1) enigmaLeading(1);
+  }
+
+  @include media('>grid-large') {
+    padding: 0 enigmaLeading(3) enigmaLeading(1) enigmaLeading(1);
+  }
+}
+
+.main-nav--open .main-nav__panel {
+  transform: rotate3d(0, -1, 0, 0);
+}
+
+.no-js .main-nav {
+  position: static;
+  height: auto;
+  width: auto;
+}
+
+.no-js .main-nav__panel {
+  position: static;
+  height: auto;
+  width: 100%;
+  transform: none;
+}
+
+.no-js .main-nav__content {
+  padding-top: enigmaLeading(3);
+}
+
+.no-js .main-nav__header,
+.no-js .main-nav__title {
+  display: none;
+}

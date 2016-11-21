@@ -1,0 +1,29 @@
+////
+/// Basic typography style for copy text
+////
+
+///Base font size modification for responsive web
+:root {
+  font-size: $root-text-size;
+}
+
+@include media('<grid-medium') {
+  :root {
+    font-size: 115%;
+  }
+}
+
+/// Generic typographic rulse
+body {
+  color: $color-text;
+  font-family: $serif-font-stack;
+  text-rendering: optimizeLegibility;
+}
+
+h1, .h1 {
+  font-feature-settings: 'liga', 'dlig', 'hlig';
+}
+
+h2, .h2 {
+  font-feature-settings: 'liga', 'dlig', 'hlig';
+}

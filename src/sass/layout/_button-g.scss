@@ -1,0 +1,31 @@
+.button-g {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  & > a,
+  & > button {
+    margin: enigmaLeading(0.25) 0;
+  }
+
+  @include media('>grid-small') {
+    & > a,
+    & > button {
+      margin: enigmaLeading(0.5) 0;
+    }
+  }
+
+  @include media('>grid-medium') {
+    flex-direction: row;
+
+    & > a,
+    & > button {
+      margin: 0 phi-margin(1);
+    }
+  }
+}
+
+.button-g--centered {
+  justify-content: center;
+}

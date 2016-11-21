@@ -1,0 +1,14 @@
+.article {}
+.article__text {
+  margin-bottom: 0;
+}
+
+.article__meta {
+  @include enigma(-1 with 0);
+  font-style: italic;
+  text-align: right;
+}
+
+.article__author {
+  font-weight: 700;
+}
