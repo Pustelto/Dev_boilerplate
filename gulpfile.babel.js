@@ -192,6 +192,7 @@ gulp.task('critical', () => (
   //     },
   //   ]
   // })
+  console.log('critical CSS task')
 ));
 
 // =============================
