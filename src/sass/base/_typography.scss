@@ -7,12 +7,6 @@
   font-size: $root-text-size;
 }
 
-@include media('<grid-medium') {
-  :root {
-    font-size: 115%;
-  }
-}
-
 /// Generic typographic rulse
 body {
   color: $color-text;

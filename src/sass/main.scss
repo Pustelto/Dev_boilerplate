@@ -1,9 +1,9 @@
 @charset 'UTF-8';
 
 /// 1. Vendors
-// @import '../../bower_components/Normy/normy-core';
-// @import '../../bower_components/Enigma/dist/enigma';
-// @import '../../bower_components/include-media/dist/include-media';
+@import '../../bower_components/Normy/normy-core';
+@import '../../bower_components/Enigma/dist/enigma';
+@import '../../bower_components/include-media/dist/include-media';
 
 /// 2. Configuration and helpers
 @import 'abstracts/a-settings';
