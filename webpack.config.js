@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = {
   entry: {
     main: './src/js/main.js',
-    modernizr: './src/js/modernizr.min.js'
+    modernizr: './src/js/modernizr-custom.js'
   },
   output: {
     filename: '[name].js',
