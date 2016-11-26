@@ -4,38 +4,20 @@
 
 /// Enigma settings
 $enigma: (
-  'root': 20px,
-  'base': 22px,
-  'alfa': 1.618,
-  'beta': 1.2,
+  'root': 16px,
+  'base': 16px,
+  'alfa': 1.5,
+  'beta': 1.125,
   'line-color': #15ADE6,
   'line-shift': -8px
 );
 
 /// Font families
 /// @type List
-$serif-font-stack: ('Alegreya', 'Garamond', 'Times New Roman', serif) !default;
-$sans-font-stack: ('Alegreya Sans SC', 'Arial', sans-serif) !default;
+$serif-font-stack: ('Playfair Display', 'Garamond', 'Times New Roman', serif) !default;
+$sans-font-stack: ('PT Sans', 'Arial', sans-serif) !default;
 
 /// root text size
 /// equals 1rem, set in % for better scaling and responsivity
 //$root-text-size: 100%;  // 16px
-$root-text-size: 125%;  // 20px
-
-/// Font sizes
-/// TODO: map for better responsive typography
-$text-small: (14 / 16) * 1rem;
-$text-base: 1rem;
-$text-lead: (18 / 16) * 1rem;
-$text-notify: (24 / 16) * 1rem;
-
-/// Line height
-$base-lh: 1.618;
-
-/// Icon font variables:
-$icons: (
-  'menu': '\e900',
-  'close': '\e901',
-  'leaf': '\e902',
-  'facebook': '\e903'
-);
+$root-text-size: 100%;  // 20px
