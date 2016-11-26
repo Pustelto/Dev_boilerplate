@@ -1,11 +1,7 @@
 /*
-watcher, hot-reload
-watcher sluduje i změny v assetech a kopíruje je - pokyn pro hot reload - měnit pouze nezměněné
-caching of images
-
 tvorba sprites (svg i normální)
-
-scafold > sass, js > html > min:css > cache > revreplace
+optimalizace obrázků
+výměna/vkládání snippetů do html (něco jako useref, ale lepší možnosti konfigurace)
 ??automatické přidávání scss modulů do main.scss
 maybe use gulp-rev-css-url if css images have caching issue
 */
@@ -21,6 +17,7 @@ import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
 import pixrem from 'pixrem';
 import opacity from 'postcss5-opacity';
+import unroot from 'postcss-unroot';
 import sourcemaps from 'gulp-sourcemaps';
 import del from 'del';
 import changed from 'gulp-changed';
@@ -59,9 +56,12 @@ const SASS_CFG = {
 
 const POSTCSS_CFG = [
   autoprefixer({browsers: ['IE 8', 'IE 9', 'IE 10', '> 1%']}),
-  pixrem(),
+  pixrem({atrules: true}),
   opacity(),
+  unroot(),
 ];
+
+
 
 // =============================
 // UTILITY TASKS
@@ -77,43 +77,51 @@ gulp.task('clean:css', () => (
 ));
 
 // Copy to dist/ folder
-gulp.task('scafold', ['clean'], () => {
+gulp.task('scafold', () => {
   //grab everything, which should include htaccess, robots, etc
     gulp.src([`${SOURCE}*`, `!${SOURCE}sass`])
       .pipe(changed(DEST))
-      .pipe(gulp.dest(DEST));
+      .pipe(gulp.dest(DEST))
+      .pipe(BS.stream());
 
     //grab any hidden files too
     gulp.src(`${SOURCE}.*`)
       .pipe(changed(DEST))
-      .pipe(gulp.dest(DEST));
+      .pipe(gulp.dest(DEST))
+      .pipe(BS.stream());
 
     // copy fonts
     gulp.src(`${SOURCE}*fonts/**/*`)
       .pipe(changed(DEST))
-      .pipe(gulp.dest(DEST));
+      .pipe(gulp.dest(DEST))
+      .pipe(BS.stream());
 
     // copy images - will be overwritten with optimized images on build
     gulp.src(`${SOURCE}*images/**/*`)
       .pipe(changed(DEST))
-      .pipe(gulp.dest(DEST));
+      .pipe(gulp.dest(DEST))
+      .pipe(BS.stream());
 });
 
 // Ready Browser-Sync
 gulp.task('browserSync', () => (
   BS.init({
     server: {
+      // work with data from dist/ folder
       baseDir: DEST,
     }
   })
 ));
 
-gulp.task('html', () => (
+// Concat and rename resources in html files
+gulp.task('useref', () => (
   gulp.src(path.resolve(DEST, './*.html'))
     .pipe(plumber())
     .pipe(useref())
     .pipe(gulp.dest(DEST))
 ));
+
+
 
 // =============================
 // CACHE BUSTING
@@ -139,13 +147,15 @@ gulp.task('revreplace', ['cache'], () => {
     .pipe(gulp.dest(DEST));
 });
 
+
+
 // =============================
 // CSS RELATED TASKS
 // =============================
 
 // Compile sass to css, run PostCSS plugins
 gulp.task('sass', () => (
-  gulp.src(path.resolve(SOURCE, './sass/main.scss'))
+  gulp.src(`${SOURCE}/sass/main.scss`)
     .pipe(plumber({errorHandler: notify.onError("Failed to compile SASS")}))
     .pipe(changed(path.resolve(DEST, './css')))
     .pipe(sourcemaps.init())
@@ -195,6 +205,8 @@ gulp.task('critical', () => (
   console.log('critical CSS task')
 ));
 
+
+
 // =============================
 // JS RELATED TASKS
 // =============================
@@ -205,6 +217,8 @@ gulp.task('js',(callback) => (
         callback();
     })
 ));
+
+
 
 // =============================
 // IMAGE PROCESSING
@@ -222,22 +236,27 @@ gulp.task('images', function(callback){
   callback();
 });
 
+
+
 // =============================
 // BUILD SCRIPTS
 // =============================
 
 // Watchers
-gulp.task('watch', ['browserSync', 'sass'], () => {
-  gulp.watch(path.resolve(SOURCE, './sass/**/*.scss'), ['sass']);
-  gulp.watch('./src/js/app.js', ['js'], browserSync.reload);
-  gulp.watch(`${SOURCE}*.html`).on('change', BS.reload);
+gulp.task('watch', ['browserSync', 'sass', 'js', 'scafold'], () => {
+  gulp.watch(`${SOURCE}/sass/**/*.scss`, ['sass']);
+  gulp.watch(`${SOURCE}/js/**/*.js`, ['js'], BS.reload);
+  gulp.watch([`${SOURCE}*.html`, `${SOURCE}/images/**/*`, `${SOURCE}/fonts/*`], ['scafold']);
 });
 
 // Dev server
 gulp.task('serve', ['watch']);
 
 // Production-ready build
-gulp.task('build', seq('scafold', ['minify:css', 'js'], 'critical', 'html', 'revreplace', 'images', 'browserSync'));
+gulp.task('build', seq('clean', 'scafold', ['minify:css', 'js'], 'critical', 'useref', 'revreplace', 'images', 'browserSync'));
 
 // TODO: versioning, git publishing
 gulp.task('publish', ['browserSync', 'watch']);
+
+// Default task
+gulp.task('default', ['serve']);
