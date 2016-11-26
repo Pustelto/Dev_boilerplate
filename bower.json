@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "Normy": "git://github.com/Pustelto/Normy.git",
-    "include-media": "^1.4.5"
+    "include-media": "^1.4.5",
+    "enigma": "https://github.com/Pustelto/Enigma.git"
   }
 }
