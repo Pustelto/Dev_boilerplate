@@ -6,30 +6,45 @@
 @import '../../bower_components/include-media/dist/include-media';
 
 /// 2. Configuration and helpers
-@import 'abstracts/a-settings';
-@import 'abstracts/a-colors';
-@import 'abstracts/a-text';
-@import 'abstracts/a-functions';
-@import 'abstracts/a-mixins';
+/* abstracts:scss */
+@import "abstracts/_a-colors.scss";
+@import "abstracts/_a-functions.scss";
+@import "abstracts/_a-mixins.scss";
+@import "abstracts/_a-settings.scss";
+@import "abstracts/_a-text.scss";
+/* endinject */
 
 /// 3. Base stuff
-@import 'base/fonts';
-@import 'base/keyframes';
-@import 'base/base';
-@import 'base/typography';
+/* base:scss */
+@import "base/_base.scss";
+@import "base/_fonts.scss";
+@import "base/_keyframes.scss";
+@import "base/_typography.scss";
+/* endinject */
 
 /// 4. Atoms - basic webpage elements
 /// @link http://bradfrost.com/blog/post/atomic-web-design/
+/* atoms:scss */
+/* endinject */
 
 /// 5. Components
+/* components:scss */
+/* endinject */
 
 /// 6. Layout-related sections
+/* layout:scss */
+/* endinject */
 
 /// 7. Page-specific styles
+/* page:scss */
+/* endinject */
 
 /// 8. Vendor overrides (CSS for plugins etc.)
-@import 'utility/helpers';
-@import 'utility/u-media';
+/* vendor:scss */
+/* endinject */
 
-/// 9. Shame file for ugly CSS breaking rules or in need of refactoring
-/// @link http://csswizardry.com/2013/04/shame-css/
+/// 9. Utility classes
+/* utility:scss */
+@import "utility/_helpers.scss";
+@import "utility/_u-media.scss";
+/* endinject */

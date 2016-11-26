@@ -2,15 +2,19 @@
 tvorba sprites (svg i normální)
 optimalizace obrázků
 výměna/vkládání snippetů do html (něco jako useref, ale lepší možnosti konfigurace)
-??automatické přidávání scss modulů do main.scss
 maybe use gulp-rev-css-url if css images have caching issue
 */
 
 'use strict';
 
-import path from 'path';
 import gulp from 'gulp';
+import path from 'path';
+import del from 'del';
+import bs from 'browser-sync';
+import sourcemaps from 'gulp-sourcemaps';
+import plumber from 'gulp-plumber';
 import notify from 'gulp-notify';
+import inject from 'gulp-inject';
 import sass from 'gulp-sass';
 import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
@@ -18,10 +22,8 @@ import cssnano from 'cssnano';
 import pixrem from 'pixrem';
 import opacity from 'postcss5-opacity';
 import unroot from 'postcss-unroot';
-import sourcemaps from 'gulp-sourcemaps';
-import del from 'del';
+import critical from 'critical';
 import changed from 'gulp-changed';
-import bs from 'browser-sync';
 import useref from 'gulp-useref';
 import rev from 'gulp-rev';
 import revReplace from 'gulp-rev-replace';
@@ -30,9 +32,9 @@ import imagemin from 'gulp-imagemin';
 import webp from 'gulp-webp';
 import webpack from 'webpack';
 import WEBPACK_CFG from'./webpack.config.js';
-import cached from 'gulp-cached';
-import plumber from 'gulp-plumber';
-import critical from 'critical';
+// import cached from 'gulp-cached';
+
+
 
 // =============================
 // CONFIGURATION
@@ -45,7 +47,7 @@ const DEST = 'dist/';
 // BrowserSync init
 const BS = bs.create();
 
-// Configuration
+// Sass configuration
 const SASS_CFG = {
   indentType: 'tab',
   indentWidth: 2,
@@ -54,12 +56,16 @@ const SASS_CFG = {
   precision: 3,
 };
 
+// Plugins to be run by PostCSS
 const POSTCSS_CFG = [
   autoprefixer({browsers: ['IE 8', 'IE 9', 'IE 10', '> 1%']}),
   pixrem({atrules: true}),
   opacity(),
   unroot(),
 ];
+
+// Next 2 const are used in auto injection of scss partials
+const SOURCE_CFG = {read: false, base: 'sass'};
 
 
 
@@ -153,10 +159,62 @@ gulp.task('revreplace', ['cache'], () => {
 // CSS RELATED TASKS
 // =============================
 
-// Compile sass to css, run PostCSS plugins
-gulp.task('sass', () => (
+// Automatic partials injection to main.scss file
+gulp.task('inject-partials', () => (
   gulp.src(`${SOURCE}/sass/main.scss`)
-    .pipe(plumber({errorHandler: notify.onError("Failed to compile SASS")}))
+    .pipe(changed(`${SOURCE}/sass/**`))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/abstracts/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'abstracts',
+      addRootSlash: false,
+    }))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/base/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'base',
+      addRootSlash: false,
+    }))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/atoms/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'atoms',
+      addRootSlash: false,
+    }))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/components/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'components',
+      addRootSlash: false,
+    }))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/layout/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'layout',
+      addRootSlash: false,
+    }))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/page/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'page',
+      addRootSlash: false,
+    }))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/vendor/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'vendor',
+      addRootSlash: false,
+    }))
+    .pipe(inject(gulp.src(`${SOURCE}/sass/utility/*.scss`, SOURCE_CFG), {
+      relative: true,
+      name: 'utility',
+      addRootSlash: false,
+    }))
+    .pipe(gulp.dest(`${SOURCE}/sass`))
+));
+
+// Compile sass to css, run PostCSS plugins
+gulp.task('sass', ['inject-partials'], () => (
+  gulp.src(`${SOURCE}/sass/main.scss`)
+    .pipe(plumber({ errorHandler: (err) => {
+        notify.onError({
+            title: "Gulp error in " + err.plugin,
+            message:  err.toString()
+        })(err);
+    }}))
     .pipe(changed(path.resolve(DEST, './css')))
     .pipe(sourcemaps.init())
     .pipe(sass(SASS_CFG).on('error', sass.logError))
