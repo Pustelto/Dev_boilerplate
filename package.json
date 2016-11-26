@@ -39,6 +39,7 @@
     "gulp-useref": "^3.1.2",
     "gulp-webp": "^2.3.0",
     "pixrem": "^3.0.2",
+    "postcss-unroot": "^1.0.2",
     "postcss5-opacity": "^2.0.2",
     "webpack": "^1.13.3"
   }
