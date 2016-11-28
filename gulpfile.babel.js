@@ -78,6 +78,8 @@ gulp.task('clean', () => (
   del(DEST)
 ));
 
+gulp.task('clear', ['clean']);
+
 gulp.task('clean:css', () => (
   del(path.resolve(DEST, './css'))
 ));
