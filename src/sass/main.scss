@@ -7,19 +7,10 @@
 
 /// 2. Configuration and helpers
 /* abstracts:scss */
-@import "abstracts/_a-colors.scss";
-@import "abstracts/_a-functions.scss";
-@import "abstracts/_a-mixins.scss";
-@import "abstracts/_a-settings.scss";
-@import "abstracts/_a-text.scss";
 /* endinject */
 
 /// 3. Base stuff
 /* base:scss */
-@import "base/_base.scss";
-@import "base/_fonts.scss";
-@import "base/_keyframes.scss";
-@import "base/_typography.scss";
 /* endinject */
 
 /// 4. Atoms - basic webpage elements
@@ -45,6 +36,4 @@
 
 /// 9. Utility classes
 /* utility:scss */
-@import "utility/_helpers.scss";
-@import "utility/_u-media.scss";
 /* endinject */
