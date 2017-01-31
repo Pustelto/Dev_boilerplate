@@ -43,5 +43,9 @@
     "postcss-unroot": "^1.0.2",
     "postcss5-opacity": "^2.0.2",
     "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "start": "gulp"
   }
+  
 }
